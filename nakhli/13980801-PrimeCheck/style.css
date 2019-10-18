@@ -42,11 +42,14 @@ p {
 	margin: 0;
 }
 
+html {height: 100%;}
+
+body {min-height: 100%;}
+
 header {
     background-color: #eee;
     padding: 15px 0 10px;
     box-shadow: 0 1px 5px #0003;
-    margin-bottom: 140px;
 }
 
 header .title {
@@ -57,7 +60,6 @@ footer {
     background-color: #eee;
     padding: 10px 0;
     box-shadow: 0 -1px 5px #0003;
-    margin-top: 140px;
 }
 
 form {

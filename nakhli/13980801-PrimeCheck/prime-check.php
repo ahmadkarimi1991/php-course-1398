@@ -10,16 +10,16 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
-<body>
-    <header>
+<body class="d-flex flex-column">
+    <header class="mb-5">
         <div class="container">
             <div class="row justify-content-center">
                 <h3 class="title">Prime Check</h3>
             </div>
         </div>
     </header>
-    <div class="container">
-        <div class="row justify-content-center">
+    <div class="container flex-grow-1">
+        <div class="row justify-content-center align-items-center">
             <form class="mb-4" method="post">
                 <div class="form-group">
                     <label for="EnterYourNumber">Enter a Number:</label>
@@ -62,7 +62,7 @@
             ?>
         </div>
     </div>
-    <footer>
+    <footer class="mt-3">
         <div class="container">
             <div class="row justify-content-center">
                 <p class="copyright">© 2019 - Prime Check. All Rights Reserved.</p>
