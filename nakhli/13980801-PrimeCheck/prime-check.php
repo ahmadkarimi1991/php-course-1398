@@ -20,7 +20,7 @@
     </header>
     <div class="container flex-grow-1">
         <div class="row justify-content-center align-items-center">
-            <form class="mb-4" method="post">
+            <form class="mb-4" method="POST">
                 <div class="form-group">
                     <label for="EnterYourNumber">Enter a Number:</label>
                     <input class="form-control" type="text" name="input" id="EnterYourNumber">
@@ -30,9 +30,9 @@
             <?php
             if ($_POST) {
                 $input = $_POST['input'];
-                for ($i = 2; $i <= $input - 1; $i++) {
+                for ($i = 2; $i < $input; $i++) {
                     if ($input % $i == 0) {
-                        $value = True;
+                        $value = true;
                     }
                 }
                 if (isset($value) && $value) {
